@@ -1,0 +1,8 @@
+name = input("Enter your full name: ")
+name = name.strip()
+print("\n--- Name Formatter ---")
+print("Original name:", name)
+print("Title case:", name.title())
+print("Uppercase:", name.upper())
+print("Lowercase:", name.lower())
+print("Total characters:", len(name))

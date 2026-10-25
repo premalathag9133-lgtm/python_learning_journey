@@ -1,0 +1,6 @@
+username = input("Enter a username: ")
+username = username.strip()
+username = username.lower()
+username = username.replace(" ", "_")
+print("\n--- Username Formatter ---")
+print("Your username:", username)

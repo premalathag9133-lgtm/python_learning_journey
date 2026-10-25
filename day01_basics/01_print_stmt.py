@@ -13,7 +13,7 @@ name="Abc"
 age=10
 print("Name:",name,"Age:",age)
 
-#print f_string
+#print f_string (String formatting)
 name="Abc"
 age=10
 print(f"Name:{name} Age:{age}")

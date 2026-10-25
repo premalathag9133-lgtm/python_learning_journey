@@ -1,0 +1,8 @@
+text = input("Enter a sentence: ")
+word = input("Enter a word to find: ")
+letter = input("Enter a letter to count: ")
+print("\n--- Word Finder ---")
+print("Starts with the word:", text.startswith(word))
+print("Ends with the word:", text.endswith(word))
+print("Word position:", text.find(word))
+print("Letter count:", text.count(letter))
